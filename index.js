@@ -1,6 +1,23 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+  //created an empty object
+  let numObject = {}   
+  
+// use a for-loop 
+  
+    for(let eachNum in array){
+    let otherNum = target - array[eachNum] 
+    //checks for otherNum and pushes result into an array
+    if(otherNum in numObject){
+        let resultArr = [];
+        resultArr.push(otherNum, array[eachNum])        
+        return true;
+        }
+        
+        numObject[nums[eachNum]] = eachNum
+        elseif()
+          return false;
 }
+    }
 
 /* 
   Write the Big O time complexity of your function here
